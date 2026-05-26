@@ -827,6 +827,7 @@ a {
   .menu-toggle {
     display: block;
     position: fixed;
+    top: 24px;
     right: 26px;
     margin-left: 0;
     z-index: 70;
@@ -973,6 +974,11 @@ a {
     max-width: calc(100vw - 20px);
     min-height: 62px;
     padding: 10px 64px 10px 14px;
+  }
+
+  .menu-toggle {
+    top: 24px;
+    right: 22px;
   }
 
 
