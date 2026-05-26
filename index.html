@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dr. Petrille Cavalcante | Cirurgia Torácica</title>
+  <meta name="description" content="Site do Dr. Petrille Cavalcante, especialista em cirurgia torácica, endoscopia respiratória e tratamento de doenças pulmonares." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" data-header>
+    <div class="header-shell">
+      <a class="brand" href="#inicio" aria-label="Página inicial">
+        <img src="./assets/logo.png" alt="Dr. Petrille Cavalcante - Cirurgia Torácica" />
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" data-menu-toggle>
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Menu principal" data-nav>
+        <a href="#sobre">Dr. Petrille</a>
+        <div class="nav-dropdown">
+          <a href="#especialidades" class="dropdown-trigger">Especialidades</a>
+          <div class="dropdown-menu" aria-label="Especialidades">
+            <a href="#especialidades">Broncoscopia</a>
+            <a href="#especialidades">Cirurgia Torácica</a>
+            <a href="#especialidades">Traqueoplastia</a>
+          </div>
+        </div>
+        <a href="#cirurgias">Cirurgias &amp; Exames</a>
+        <a href="#blog">Blog</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <a class="header-cta" href="https://wa.me/5500000000000" target="_blank" rel="noopener">
+        Agendar sua Consulta
+        <span aria-hidden="true">+</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-label="Destaque principal">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1>Câncer de Pulmão:</h1>
+        <p>Conheça os tratamentos</p>
+        <a class="hero-button" href="#sobre">Saiba Mais</a>
+        <span class="mouse-indicator" aria-hidden="true"></span>
+      </div>
+
+      <a class="whatsapp-float" href="https://wa.me/5500000000000" target="_blank" rel="noopener" aria-label="Abrir conversa no WhatsApp">
+        <span class="whatsapp-icon" aria-hidden="true">
+          <img src="./assets/icons/whatsapp.svg" alt="" />
+        </span>
+        <span class="whatsapp-bubble">Ficou com alguma dúvida? <strong>Clique aqui!</strong></span>
+      </a>
+
+      <svg class="hero-wave" viewBox="0 0 1440 150" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <radialGradient id="about-wave-glow" cx="13%" cy="115%" r="62%">
+            <stop offset="0%" stop-color="#dff1fb" />
+            <stop offset="58%" stop-color="#f3f7fc" />
+            <stop offset="100%" stop-color="#f6f8fc" />
+          </radialGradient>
+        </defs>
+        <path fill="url(#about-wave-glow)" d="M0,78 C180,118 345,140 540,124 C785,104 940,36 1148,22 C1260,14 1362,25 1440,45 L1440,150 L0,150 Z"></path>
+      </svg>
+    </section>
+
+    <section class="about section" id="sobre">
+      <div class="container about-grid">
+        <div class="about-copy">
+          <p class="section-kicker">Sobre</p>
+          <h2>Dr. Petrille Cavalcante</h2>
+          <span class="title-line"></span>
+
+          <ul class="credentials-list">
+            <li>Médico pela Universidade Federal de Alagoas.</li>
+            <li>Residência em Cirurgia Geral no Hospital das Clínicas da UFMG.</li>
+            <li>Residência em Cirurgia Torácica no Hospital Governador Israel Pinheiro — IPSEMG.</li>
+            <li>Fellowship em Endoscopia Respiratória no Hospital Governador Israel Pinheiro — IPSEMG.</li>
+            <li>Cirurgião Torácico em hospitais de referência em Minas Gerais.</li>
+            <li>Atuação no SUS e em instituições privadas de excelência.</li>
+            <li>Professor de Medicina na Faculdade de Medicina de Barbacena.</li>
+          </ul>
+
+          <a class="outline-button" href="https://wa.me/5500000000000" target="_blank" rel="noopener">
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M7 3.5v3M17 3.5v3M4.5 9.5h15M6.5 5h11A2.5 2.5 0 0 1 20 7.5v10A2.5 2.5 0 0 1 17.5 20h-11A2.5 2.5 0 0 1 4 17.5v-10A2.5 2.5 0 0 1 6.5 5Z" />
+              <path d="m9 14 2 2 4-5" />
+            </svg>
+            Agendar sua Consulta
+            <svg aria-hidden="true" viewBox="0 0 24 24">
+              <path d="M5 12h14M13 6l6 6-6 6" />
+            </svg>
+          </a>
+        </div>
+
+        <div class="doctor-card" aria-label="Foto e registros profissionais">
+          <div class="doctor-photo-wrap">
+            <img src="./assets/doctor-about.webp" alt="Dr. Petrille Cavalcante com jaleco branco" />
+          </div>
+          <div class="doctor-info-bar">
+            <span>CRM MG 9999</span>
+            <i aria-hidden="true"></i>
+            <span>RQE 9999</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="specialties section" id="especialidades">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="section-kicker">Especialidades</p>
+          <h2>Cuidado completo em cirurgia torácica</h2>
+        </div>
+
+        <div class="cards-viewport" aria-label="Lista de especialidades">
+          
+          <article class="specialty-card">
+            <img src="./assets/icons/broncoscopia-flexivel.svg" alt="" aria-hidden="true" />
+            <h3>Broncoscopia flexível</h3>
+            <p>Exame endoscópico das vias aéreas com foco em diagnóstico preciso e cuidado respiratório.</p>
+          </article>
+
+          <article class="specialty-card">
+            <img src="./assets/icons/broncoscopia-rigida.svg" alt="" aria-hidden="true" />
+            <h3>Broncoscopia rígida</h3>
+            <p>Procedimento especializado para avaliação e tratamento de condições complexas da traqueia e brônquios.</p>
+          </article>
+
+          <article class="specialty-card">
+            <img src="./assets/icons/lobectomia-pulmonar.svg" alt="" aria-hidden="true" />
+            <h3>Lobectomia pulmonar</h3>
+            <p>Tratamento cirúrgico para doenças pulmonares com planejamento individualizado.</p>
+          </article>
+
+          <article class="specialty-card">
+            <img src="./assets/icons/segmentectomia-pulmonar.svg" alt="" aria-hidden="true" />
+            <h3>Segmentectomia pulmonar</h3>
+            <p>Cirurgia pulmonar preservadora, indicada em casos selecionados com técnica precisa.</p>
+          </article>
+
+          <article class="specialty-card">
+            <img src="./assets/icons/bulectomia.svg" alt="" aria-hidden="true" />
+            <h3>Bulectomia</h3>
+            <p>Tratamento cirúrgico para bolhas pulmonares e melhora da função respiratória em casos indicados.</p>
+          </article>
+
+          <article class="specialty-card">
+            <img src="./assets/icons/cirurgia-de-nuss.svg" alt="" aria-hidden="true" />
+            <h3>Cirurgia de Nuss</h3>
+            <p>Correção minimamente invasiva do pectus excavatum com menor agressão cirúrgica.</p>
+          </article>
+
+          <article class="specialty-card">
+            <img src="./assets/icons/cirurgia-de-ravitch.svg" alt="" aria-hidden="true" />
+            <h3>Cirurgia de Ravitch</h3>
+            <p>Correção torácica estruturada para alterações da parede do tórax.</p>
+          </article>
+
+          <article class="specialty-card">
+            <img src="./assets/icons/traqueoplastia.svg" alt="" aria-hidden="true" />
+            <h3>Traqueoplastia</h3>
+            <p>Procedimento especializado para reconstrução e tratamento de alterações da traqueia.</p>
+          </article>
+        </div>
+
+        <div class="center-action">
+          <a class="primary-button" href="#contato">
+            Veja todas as especialidades
+            <span aria-hidden="true">›</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <svg class="footer-wave" viewBox="0 0 1440 150" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,78 C180,118 345,140 540,124 C785,104 940,36 1148,22 C1260,14 1362,25 1440,45 L1440,150 L0,150 Z"></path>
+    </svg>
+    <div class="container footer-grid">
+      <a class="footer-brand" href="#inicio" aria-label="Página inicial">
+        <img src="./assets/logo.png" alt="Dr. Petrille Cavalcante - Cirurgia Torácica" />
+      </a>
+
+      <address class="footer-unit">
+        <strong>Cidade - MG</strong>
+        <span>Clínica</span>
+        <p>Rua Norma Pedroca,<br>84 - 5º andar, Centro</p>
+        <a href="tel:+553299999999">(32) 9999-9999</a>
+        <a href="tel:+553299999999">(32) 99999-9999</a>
+      </address>
+
+      <address class="footer-unit">
+        <strong>Cidade - MG</strong>
+        <span>Clínica</span>
+        <p>Rua Norma Pedroca,<br>84 - 5º andar, Centro</p>
+        <a href="tel:+553299999999">(32) 9999-9999</a>
+        <a href="tel:+553299999999">(32) 99999-9999</a>
+      </address>
+
+      <address class="footer-unit">
+        <strong>Cidade - MG</strong>
+        <span>Clínica</span>
+        <p>Rua Norma Pedroca,<br>84 - 5º andar, Centro</p>
+        <a href="tel:+553299999999">(32) 9999-9999</a>
+        <a href="tel:+553299999999">(32) 99999-9999</a>
+      </address>
+    </div>
+    <p class="footer-portfolio-note">Site Portfólio – Criado exclusivamente para estudos e busca de oportunidades profissionais.</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
